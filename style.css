@@ -1,0 +1,248 @@
+/* Student No: EC/2020/009 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 15px;
+}
+
+.cover{
+    position: relative;
+    background-image: url('images/coverimg.png');
+    background-repeat: no-repeat;
+    height: 420px;
+    background-size: cover;
+    background-position: right;
+    border-radius: 15px;
+}
+
+.cover .title h2{
+
+    font-size: 50px;
+    color: rgb(3, 5, 21);
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    line-height: 1.4;
+    
+}
+.cover .title p{
+    padding: 10px;
+    background-color: rgb(252, 249, 249,0.5);
+    position: relative;
+    top: 250px;
+    left: 320px;
+    max-width: 800px;
+
+}
+
+.about{
+    margin: 60px 0px;
+}
+.about h2{
+    text-align: center;
+    color: rgb(9, 20, 93);
+    font-size: 30px;
+}
+
+
+.about-content p{
+    text-align: center;
+    color: rgb(49, 49, 53);
+    
+
+}
+.interests{
+    
+    background-color: rgb(204, 219, 245,0.2);
+    border-radius: 20px;
+    width: 100%;
+    
+
+}
+.interests h2{
+    font-size: 30px;
+    color: rgb(9, 20, 93);
+    text-align: center;
+}
+
+.img-table{
+    margin: auto;
+    padding: 10px;
+}
+
+.interestsImage {
+
+    margin: 20px;
+    border-radius: 20px;
+    width: 250px;  
+    height: 150px; 
+}
+
+.sub-title{
+    color: rgb(9, 20, 93);
+    text-align: center;
+}
+.goal-title{
+    margin-left: 20px;
+    justify-content: left;
+    font-size: 350%;
+    color: rgb(9, 20, 93);
+}
+.myGoals{
+   
+    display: flex;
+    justify-content: start;
+    margin: 50px 50px;
+    border-radius: 40px;
+    height: 320px;
+    
+}
+.myGoals h2{
+    margin-right: 50px;
+    text-align: right;
+}
+
+
+.myGoals ul{
+    padding-top: 20px;
+    list-style-image: url('images/icon.png');
+    padding-left: 40px;
+
+}
+.myGoals li{
+
+    padding-bottom: 30px;
+    
+    
+} 
+
+.personalappr-container{
+    padding-top: 40px;
+    width: 100%;
+    height: 500px;  
+}
+.personalappr-container .sub-title{
+    color: rgb(121, 124, 142);
+}
+
+.content-personalappr-container{
+    padding: 20px;
+}
+
+.personalappr-container h2{
+    color: rgb(9, 20, 93);
+    text-align: center;
+    font-size:30px ;
+}
+.personalappr-sub-container{
+    
+    background: linear-gradient(to right, rgba(99, 129, 212, 0.3), rgba(106, 84, 255, 0.3));
+    border-radius: 10px;
+    padding: 20px;
+}
+.personalappr-sub-container h4{
+    color: rgb(9, 20, 93);
+}
+.achivements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.achivements h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(9, 20, 93);
+    margin-top: 50px;
+}
+.achivements .sub-title{
+    text-align: center;
+    color: rgb(121, 124, 142);
+
+}
+
+.achivements-container{
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.achivements-container .content{
+    width: 700px;
+    padding: 30px;
+}
+
+.achivements-container .content h2,p{
+    text-align: start;
+}
+
+.achivements-container img{
+    border-radius: 40px;
+    height: 350px;
+    width: 500px;
+}
+.first-word{
+    color: rgb(9, 20, 93);
+    font-weight: bold;
+}
+.talents{
+    margin: 30px;
+}
+
+.talents h1{
+    font-size: 30px;
+    text-align: start;
+    color: rgb(9, 20, 93);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.talents li{
+    border-bottom: 2px solid rgba(118, 121, 112, 0.466);
+    padding-bottom: 10px;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(158, 158, 207,0.2);
+    border-radius: 0 0 20px 20px;
+}
+
+.address{
+    margin: 20px 80px;
+}
+.address h3{
+    color: rgb(9, 20, 93);
+    padding-bottom: 10px;
+}
+
+.social-media{
+    margin: 20px 80px;;
+}
+.social-media h3{
+    color: rgb(9, 20, 93);
+    padding-bottom: 10px;
+}
+
+.address ul li{
+    list-style: none;
+
+}
+.social-media ul li{
+    list-style: none;
+
+}
+.social-media a{
+color: rgb(0, 0, 0);
+ padding-left: 10px;   
+ text-decoration: none;
+}
